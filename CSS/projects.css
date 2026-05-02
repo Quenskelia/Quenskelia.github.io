@@ -63,3 +63,8 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border: 1px solid black;
 }
+@media (max-width: 780px) {
+    .Projects, .intro, .character, .aboutme, .vocab {
+        font-size: 3rem;
+    }
+}
