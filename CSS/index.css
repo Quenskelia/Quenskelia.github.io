@@ -1,0 +1,89 @@
+*{
+    margin: .5rem;
+}
+
+.main-cain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(247, 247, 247);
+    padding: 1rem;
+
+}
+
+.intropool{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #ffb0b0;
+    border-radius: 10px;
+    border: 1px solid #000;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #b4faff;
+    border-radius: 10px;
+    border: 1px solid #000;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.interjection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #eabeff;
+    border-radius: 10px;
+    border: 1px solid #000;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.chevelle-pic{
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
+    border: solid 1px #000;
+    background-color: #fff;
+}
+
+.goals{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #b4faff;
+    border-radius: 10px;
+    border: 1px solid #000;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media (max-width: 780px) {
+    .chevelle-pic{
+        width: 50%;
+    }
+    .main-cain{
+        padding: 0.5rem;
+    }
+    .about-me, .intropool, .interjection, .goals{
+        font-size: 1rem;
+    }
+}
